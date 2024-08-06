@@ -1,0 +1,57 @@
+.regi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../images/wallpaper9.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.9;
+
+    .lContainerR {
+        width: 400px;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 330px;
+        margin: auto;
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(100px);
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        border-left: 1px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+        border-radius: 3px;
+        margin-top: -20px;
+    }
+
+    .headerR {
+        text-align: center;
+        font-size: x-large;
+    }
+
+    .lInputR {
+        width: 90%;
+        margin-bottom: 9px;
+        padding: 10px;
+        border: 2px solid #ccc;
+        border-radius: 6px;
+    }
+
+    .lButtonR {
+        display: block;
+        width: 98%;
+        padding: 10px;
+        background-color: rgb(186, 108, 231);
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        box-shadow:
+            0px 0px 10px rgba(0, 0, 0, 0.3),
+            0px 4px 6px rgba(0, 0, 0, 0.2);
+            margin-top: 100px;
+    }
+
+}

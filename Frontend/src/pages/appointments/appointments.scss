@@ -1,0 +1,50 @@
+.appointments {
+  display: flex;
+  height: 100vh;
+  margin-right: 500px;
+}
+
+.appointmentsContainer {
+  display: flex;
+  flex: 8;
+  flex-direction: column;
+}
+.mainContent{
+  display: grid;
+  color: #000;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 80% */
+  padding-top: 10px;
+  max-width: 3500px;
+  margin: 6% 10% 10% 25%;
+  width: 1024px;
+}
+.subContent{
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 111.111% */
+  padding-top: 10px;
+  margin-bottom: 40px;
+}
+.buttonsContainer{
+  margin-top: 10px;
+  
+  
+  
+}
+.cardsContainer{
+  margin-top: 20px;
+
+}
+.navbar2 .wrapper2 {
+  padding: 0px;
+  margin-top: 0px;
+}
+.MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root{
+  font-size: 25px;
+}
+
